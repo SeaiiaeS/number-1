@@ -152,29 +152,7 @@ function Product() {
   return(
     <div style={{overflow:"hidden"}} >
       <Menu/>
-      <div  className='product-body'>
-        <Link to='/men' >
-        <div  className='product-men m1'>
-          <div>Men's Clothes</div>
-          <div style={{padding:'0px'}}><img src={menfoto} style={{width:'380px',height:'320px'}}/></div>
-        </div>
-        </Link>
-
-        <Link to='/women' >
-        <div   className='product-men m2'>
-          <div>Women's Clothes</div>
-          <div style={{padding:'0 0 0 10px'}}><img src={girlfoto} style={{width:'360px',height:'280px'}}/></div>
-        </div>
-        </Link>
-
-        <Link to='/child' >
-        <div className='product-men m3'>
-          <div>Child's Clothes</div>
-          <div style={{padding:'0 0 0 40px'}}><img src={childfoto} style={{width:'370px',height:'280px',}}/></div>
-        </div>
-        </Link>
-
-      </div>
+      <h1>Barev</h1>
       <Flotter/>
 
 
