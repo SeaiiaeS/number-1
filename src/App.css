@@ -1,0 +1,289 @@
+
+
+
+
+
+
+
+
+
+.loder{
+  width: 500px;
+  height: 50px;
+  background-color: red;
+  animation: lod 5s infinite linear;
+}
+
+
+@keyframes lod {
+  0%{
+    width: 500px;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+
+
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+}
+.mec{
+  width: 100%;
+  height: 1500px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+
+ li{
+  float: left;
+}
+a{
+  display: block;
+  font-size: 25px;
+  background-color: rgb(18, 0, 41);
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+  transition: 1s;
+}
+a:hover{
+  background-color: yellow;
+  color: black;
+  box-shadow:  0px -4px 6px 2px black inset;
+  transition: 0.5s;
+}
+.body{
+  width: 100%;
+  height: 500px;
+  flex-grow: 1;
+  background-image: url(./fil/img/1.png);
+  background-size: 100% 1186.4px;
+  overflow: hidden;
+
+}
+#roulet{
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 170px;
+  left: 30%;
+  background-color: crimson;
+  background-image: url(./fil/img/wheele.png);
+  background-size: 556px 556px;
+  background-repeat: no-repeat;
+  background-position:-27px -28px;
+}
+@keyframes rul {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(inherit);
+  }
+}
+#but{
+  width: 100px;
+  height: 50px;
+  letter-spacing: 5px;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  top: 700px;
+  left: 45%;
+}
+.dc{
+  font-size: 40px;
+  position: absolute;
+  top: 615px;
+  left: 704px;
+}
+
+.h2{
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 380px;
+  color: red;
+  z-index: 99;
+  font-size: 70px;
+  animation: h 1s linear 1 forwards;
+  animation-delay: 3s;
+  opacity: 0;
+}
+
+
+.h1{
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 530px;
+  color: red;
+  z-index: 99;
+  font-size: 70px;
+  animation: h 1s linear 1 2s forwards;
+  animation-delay: 3s;
+  opacity: 0;
+}
+@keyframes h {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.flotter{
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  box-shadow:0px 5px 2px 0px greenyellow inset;
+}
+.flotter>div{
+  width: 100%;
+  height: 250px;
+  background-image: url(./fil/img/3.png);
+  background-position: 40% -140px;
+  background-repeat: no-repeat;
+} */
+
+
+
+
+
+
+
+.menu-div{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 99;
+  background-image: url(./img/555.png);
+  background-size: 800px 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px 0 30px 0 ;
+  box-shadow: black 0 0 5px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.product-body{
+  width: 100%;
+  height: 500px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: black inset 0 0 20px 2px ;
+
+}
+.product-body a> div{
+  transition: 0.5s;
+}
+
+
+.product-body a >div:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px green,black inset  0 0 30px 1px;
+  animation: up 5s linear infinite ;
+}
+.product-body a div>div{
+  color: aliceblue;
+  font-size: 30px;
+  padding : 10px 50px 0 84px;
+  text-shadow: white 1px 1px 2px;
+}
+.product-men{
+  width: 380px;
+  height: 400px;
+  background-color: black ;
+  box-shadow: black inset  0 0 30px 1px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-image: url(./img/22.png);
+  background-size: 100px 100px;
+}
+.m1:hover{
+  background-color: blue;
+}
+.m2:hover{
+  background-color: violet;
+}
+.m3:hover{
+  background-color: orange;
+}
+.flotter{
+  width: 100%;
+  height: 110px;
+  background-color: black;
+  padding-left: 40%;
+  box-sizing: border-box;
+}
+
+
+
+
+@keyframes up {
+  0%{
+    background-position: 0;
+  }
+  100%{
+    background-position: -1000px 0px;
+  }
+}
+
+.men-body{
+  width: 100%;
+  height: 800px;
+  background-color: wheat;
+}
+.catal{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.catal-box{
+  width: 20%;
+  height: 80px;
+  padding: 0 0 0 40px;
+}
+.mjack{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mj-box{
+  width: 320px;
+  height: 200px;
+  background-color: black;
+  margin: 40px;
+}
+.mj-box>img{
+  width: 320px;
+  height: 250px;
+}
